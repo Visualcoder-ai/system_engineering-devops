@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script displays the content of the current directory using a for loop
+
+for filename in *
+do
+    if [ ! -d "$filename" ]
+    then
+        echo "$filename" | cut -d'-' -f2-
+    fi
+done
