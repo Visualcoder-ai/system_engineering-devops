@@ -1,3 +1,2 @@
 #!/bin/bash
-# switch to the betty user
 su betty
