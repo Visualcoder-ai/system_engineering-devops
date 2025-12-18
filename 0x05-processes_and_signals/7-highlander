@@ -2,13 +2,13 @@
 # Bash script that handles SIGTERM signal and displays "I am invincible!!!"
 
 trapped_signal() {
-    echo "I am invincible!!!"
+	echo "I am invincible!!!"
 }
 
 trap trapped_signal SIGTERM
 
 while true
 do
-    echo "To infinity and beyond"
-    sleep 2
+	echo "To infinity and beyond"
+	sleep 2
 done
