@@ -5,7 +5,7 @@ trapped_signal() {
 	echo "I am invincible!!!"
 }
 
-trap trapped_signal SIGTERM
+trap trapped_signal TERM
 
 while true
 do
