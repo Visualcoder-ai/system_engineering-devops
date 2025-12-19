@@ -1,3 +1,2 @@
 #!/bin/bash
-# sets permissions of hello to rwxr-x-wx
 chmod 753 hello
