@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script displays "Best School" 10 times, but displays "Hi" on the 9th iteration
 
 i=1
 while [ $i -le 10 ]
-#!/usr/bin/env bash
     if [ $i -eq 9 ]
     then
         echo "Hi"
